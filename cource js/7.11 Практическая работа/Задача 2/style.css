@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-height {
+    background-color: #28a745; 
+}
+#add-height:hover {
+    background-color: #218838; 
+}
+
+#filter-height {
+    background-color: #dc3545; 
+}
+
+#filter-height:hover {
+    background-color: #c82333; 
+}
