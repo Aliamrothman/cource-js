@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>User Survey</h1>
+        <form id="surveyForm">
+            <label for="name">User Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="Male" required> Male</label>
+            <label><input type="radio" name="gender" value="Female" required> Female</label>
+
+            <label for="rating">Service Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10" value="5">
+            <span id="ratingValue">5</span>
+
+            <label>User Interests:</label>
+            <label><input type="checkbox" name="interests" value="Sports"> Sports</label>
+            <label><input type="checkbox" name="interests" value="Music"> Music</label>
+            <label><input type="checkbox" name="interests" value="Travel"> Travel</label>
+            <label><input type="checkbox" name="interests" value="Movies"> Movies</label>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
