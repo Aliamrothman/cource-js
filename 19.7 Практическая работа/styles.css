@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#delivery-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.delivery-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* جعله متناسق */
+}
+
+.delivery-card h2 {
+    margin: 0 0 8px;
+    font-size: 18px; /* حجم العنوان */
+    font-weight: 600; /* خط ثقيل */
+    color: #333;
+}
+
+.delivery-card p {
+    margin: 4px 0;
+    font-size: 14px; /* حجم نص المحتوى */
+    color: #555;
+}
+
+.delivery-card .address {
+    font-weight: 500; /* خط ثقيل للعناوين الداخلية */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#calculate-distance {
+    margin: 20px auto; /* مركز الزر */
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#calculate-distance:hover {
+    background-color: #218838;
+}
+
+#total-distance {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; /* مركز النص */
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display App</title>
+    <style>
+        #progress-bar, #dog-progress-bar {
+            width: 0;
+            height: 20px;
+            background-color: rgb(100, 24, 199);
+            max-width: 500px;
+            transition: width 3.5s ease;
+        }
+        img {
+            width: 100px;
+            margin: 10px;
+        }
+        .timer {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cat-images"></div>
+    <div id="progress-bar"></div>
+    <div class="timer" id="timer"></div>
+
+    <div id="dog-images"></div>
+    <div id="dog-progress-bar"></div>
+    <div class="timer" id="dog-timer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
